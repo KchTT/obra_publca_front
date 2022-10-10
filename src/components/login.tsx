@@ -10,7 +10,7 @@ const Login = (props: any) => {
         <div className="card">
             <div className="card-body">
                 <h5 className='m-0'>Bienvenido!</h5>
-                <h1>Smart Constuct</h1>
+                <h1>Smart Contract<span style={{color:"#FF0000"}}>or</span></h1>
                 <p>Haciendo la obra pública más equitativa y transparente.</p>
                 {contexto.walletConn.isSignedIn &&
                     <button className="btn btn-sm btn-outline-primary" onClick={() => login()}> Ingresar</button>

@@ -14,7 +14,7 @@ const Header = (props: any) => {
     return <header>
         <nav className="navbar navbar-expand-lg navbar-light" style={{ height: "70px", backgroundColor: "#fff" }}>
             <div className="navbar-brand">
-                SMART CONSTRUCT
+                SMART CONTRACT<span style={{color:"#FF0000"}}>OR</span>
                 <img src="./imgs/ic_believe.jpg" height="45" className="d-inline-block align-top" alt="" />
             </div>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
